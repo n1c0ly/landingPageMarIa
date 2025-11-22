@@ -9,8 +9,8 @@ footer {
     display: flex;
     background-color: #584187;
     padding: 58px 130px;
-
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container-footer1 {
@@ -46,3 +46,15 @@ footer {
     font-size: 14px;
 
 }
+
+.container-footer2 button{
+    background-color: #BD00A4;
+    display: flex;
+    padding: 18px 20px;
+    border-radius: 10px;
+    align-items: center;
+    gap: 24px;
+    font-size: 24px;
+    color: #ffffff;
+}
+

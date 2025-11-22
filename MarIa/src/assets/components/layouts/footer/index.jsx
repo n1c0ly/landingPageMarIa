@@ -1,7 +1,7 @@
 import './style.css';
 import LogoMarIA from "../../../images/MarIa.svg"
 import avatarMarIa from '../../../images/avatarMarIa.svg';
-
+import android from "../../../images/imgandroidfooter.svg"
 
 export const Footer = () => {
     return (
@@ -33,6 +33,12 @@ export const Footer = () => {
                         <li><a href="">LinkedIn</a></li>
                     </ul>
                 </div>
+            </div>
+            <div className="container-footer2">
+                <button type="submit">
+                    <img src={android} alt="" />
+                    Baixe agora
+                </button>
             </div>
         </footer>
     )
