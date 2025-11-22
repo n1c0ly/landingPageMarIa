@@ -1,0 +1,39 @@
+import './style.css';
+import LogoMarIA from "../../../images/MarIa.svg"
+import avatarMarIa from '../../../images/avatarMarIa.svg';
+
+
+export const Footer = () => {
+    return (
+        <footer>
+            <div className="container-footer1">
+                <img src={LogoMarIA} alt="" />
+                <div className="list-footer-content">
+                    <h2>Quick links</h2>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Community</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                </div>
+                <div className="list-footer-content">
+                    <h2>Help</h2>
+                    <ul>
+                        <li><a href="">Help Centre</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Forum</a></li>
+                    </ul>
+                </div>
+                <div className="list-footer-content">
+                    <h2>Social Media</h2>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    )
+}
