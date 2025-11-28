@@ -1,7 +1,8 @@
 import { Cards } from "./components/layouts/cards"
 import { Header } from "./components/layouts/header"
 import { Main } from "./components/layouts/main"
-import { SobreNos } from "./components/layouts/section-aboutus"
+import { Aboutus } from "./components/layouts/section-aboutus"
+import { Maps } from "./components/layouts/maps"
 
 function App() {
  
@@ -10,7 +11,8 @@ function App() {
     <>
 <Header/>
 <Main/>
-<SobreNos/>
+<Aboutus/>
+<Maps/>
     </>
   )
 }
