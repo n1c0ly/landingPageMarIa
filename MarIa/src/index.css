@@ -1,0 +1,15 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --color-pink: #B249AB;
+
+
+
+    --font-family-jersey: "Jersey 25", sans-serif;
+    --font-family-poppins: "Poppins", sans-serif;
+}
