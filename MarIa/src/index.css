@@ -10,6 +10,9 @@
     --color-black: #000000;
     --color-neutral-white: #fff;
     --color-neutral-gray: #808080;
+    --color-purple: #1C0020;
+    --color-green: #3CA270;
+    --font-size-h2:46px;
     --font-family-jersey: "Jersey 25", sans-serif;
     --font-family-poppins: "Poppins", sans-serif;
 }

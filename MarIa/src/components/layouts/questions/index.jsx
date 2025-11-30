@@ -15,16 +15,16 @@ export const Questions_space = () => {
                     question_props={"Para qual idade o jogo é recomendado?"}
                     />
                    <Component_line_question
-                    question_props={"Para qual idade o jogo é recomendado?"}
+                    question_props={"O jogo é gratuito?"}
                     />
                    <Component_line_question
-                    question_props={"Para qual idade o jogo é recomendado?"}
+                    question_props={"Como faço para jogar?"}
                     />
                    <Component_line_question
-                    question_props={"Para qual idade o jogo é recomendado?"}
+                    question_props={"O jogo funciona em celular e tablet?"}
                     />
                    <Component_line_question
-                    question_props={"Para qual idade o jogo é recomendado?"}
+                    question_props={"É necessário criar uma conta para jogar?"}
                     />
 
                 </div>

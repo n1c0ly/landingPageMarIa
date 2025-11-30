@@ -7,6 +7,8 @@ export const Cards = () => {
     return (
         <section className='section-cards'>
 
+            <h2>Features</h2>
+
             <div className="doubleCardContainer">
                 <div className="doubleCard">
                     <div className="upper_text_card">

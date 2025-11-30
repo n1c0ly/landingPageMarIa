@@ -1,0 +1,8 @@
+@import url(../../../index.css);
+
+.sectionDialog {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-purple);
+    padding: 100px;
+}

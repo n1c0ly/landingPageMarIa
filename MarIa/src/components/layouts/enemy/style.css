@@ -1,0 +1,25 @@
+@import url("../../../index.css");
+
+
+.enemyssection {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 155px 166px;
+    background-color: var(--color-purple);
+    gap: 200px;
+}
+
+.enemyssection h2 {
+    font-size: var(--font-size-h2);
+    color: var(--color-neutral-white);
+}
+
+.enemyssection h2 span {
+    color: var(--color-green);
+}
+.container-img-enemy{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}

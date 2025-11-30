@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: var(--color-purple);
     position: relative;
     padding: 179px 185px;
 }
