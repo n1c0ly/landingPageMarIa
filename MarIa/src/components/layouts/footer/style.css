@@ -1,3 +1,6 @@
+
+@import url("../../../index.css");
+
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +10,7 @@
 
 footer {
     display: flex;
-    background-color: #584187;
+    background-color: var(--color-purple);
     padding: 58px 130px;
 
 
@@ -33,7 +36,7 @@ footer {
 
 .list-footer-content h2 {
     font-size: 20px;
-    color: white;
+    color: var(--color-neutral-white);
 }
 
 .list-footer-content ul {
@@ -43,7 +46,7 @@ footer {
 }
 
 .list-footer-content ul li a {
-    color: white;
+    color: var(--color-neutral-white);
     text-decoration: none;
     font-size: 14px;
 
@@ -51,12 +54,12 @@ footer {
 
 
 .container-footer2 button{
-    background-color: #BD00A4;
+    background-color: var(--color-pink);
     display: flex;
     padding: 18px 20px;
     border-radius: 10px;
     align-items: center;
     gap: 24px;
     font-size: 24px;
-    color: #ffffff;
+    color: var(--color-neutral-white);
 }

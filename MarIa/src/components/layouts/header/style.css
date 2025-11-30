@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+@import url("../../../index.css");
+
 
 * {
     padding: 0;
@@ -10,14 +12,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #300136;
+    background-color: var(--color-purple);
     height: 90px;
 }
 
 .nav-header a {
     text-decoration: none;
     font-size: 18px;
-    color: white;
+    color: var(--color-neutral-white);
 }
 
 .nav-header ul {
@@ -30,9 +32,9 @@ header {
 
 header h1 {
     font-size: 50px;
-    color: white;
+    color: var(--color-neutral-white);
 }
 
 header span {
-    color: #FF00EE;
+    color: var(--color-light-pink);
 }

@@ -5,7 +5,7 @@
     flex-direction: column;
     width: 362px;
     height: 254px;
-    background-color: #300136;
+    background-color: var(--color-secondary-purple);
     border-radius: 25px;
     border: 1px solid #BC12B05E;
     box-shadow: 0px 7px 11px 0px ;

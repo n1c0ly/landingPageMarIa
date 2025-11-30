@@ -1,3 +1,6 @@
+@import url("../../../index.css");
+
+
 .container-maps {
     display: flex;
     flex-direction: column;
@@ -12,7 +15,7 @@
     justify-content: center;
     align-items: center;
     font-size: 46px;
-    color: white;
+    color: var(--color-neutral-white);
 }
 
 .content-maps {
@@ -20,7 +23,7 @@
     gap: 30px;
     justify-content: center;
     align-items: center;
-    background-color: #43014C;
+    background-color: var(--color-background-purplelight);
     padding: 108px 150px;
     border-radius: 20px;
 }
@@ -29,7 +32,7 @@
 
 
 .container-maps span {
-    color: #B249AB;
+    color: var(--color-pink);
     margin-left: 10px;
 }
 

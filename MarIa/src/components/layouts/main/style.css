@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+@import url("../../../index.css");
 
 * {
     padding: 0;
@@ -11,7 +12,7 @@ main {
     align-items: center;
     justify-content: center;
     padding-top: 80px;
-    background: #300136;
+    background: var(--color-purple);
     padding-bottom: 50px;
 }
 
@@ -24,7 +25,7 @@ main {
 
 .mainLeft h2 {
     font-size: 46px;
-    color: #FF00C8;
+    color: var(--color-light-pink);
     padding-bottom: 30px;
 }
 
@@ -32,12 +33,12 @@ main {
     font-size: 40px;
     padding-bottom: 60px;
     width: 580px;
-    color: #FFFF;
+    color: var(--color-neutral-white);
     line-height: 70px;
 }
 
 .buttonMain a {
-    color: white;
+    color: var(--color-neutral-white);
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
@@ -47,7 +48,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #B249AB;
+    background-color: var(--color-pink);
     width: 170px;
     height: 60px;
     border-radius: 30px 3px;
