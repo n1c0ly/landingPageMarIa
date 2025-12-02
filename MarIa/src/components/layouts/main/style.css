@@ -8,12 +8,14 @@
 }
 
 main {
-    display: flex;
+
+  display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 80px;
     background: var(--color-purple);
     padding-bottom: 50px;
+
 }
 
 .mainLeft {
