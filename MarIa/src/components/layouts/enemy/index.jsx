@@ -7,9 +7,9 @@ export const Enemys = () => {
         <section className="enemyssection">
         <h2>Explore <span> Desafios e inimigos</span> variados</h2>
         <div className="container-img-enemy">
-            <img src={EnemyMetal} alt="" />
-            <img src={EnemyGlass} alt="" />
-            <img src={EnemyPlast} alt="" />
+            <img src={EnemyMetal} alt="" loading='lazy'/>
+            <img src={EnemyGlass} alt="" loading='lazy'/>
+            <img src={EnemyPlast} alt="" loading='lazy' />
         </div>
         </section>
     )

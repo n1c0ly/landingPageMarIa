@@ -54,4 +54,7 @@ main {
     width: 170px;
     height: 60px;
     border-radius: 30px 3px;
+    cursor: pointer;
 }
+
+

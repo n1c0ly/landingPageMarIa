@@ -14,7 +14,7 @@ footer {
     padding: 58px 130px;
 
 
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -62,4 +62,5 @@ footer {
     gap: 24px;
     font-size: 24px;
     color: var(--color-neutral-white);
+    cursor: pointer;
 }

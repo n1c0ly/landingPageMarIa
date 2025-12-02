@@ -35,7 +35,7 @@ export const Footer = () => {
             </div>
             <div className="container-footer2">
                 <button type="submit">
-                    <img src={android} alt="" />
+                    <img src={android} alt="" loading='lazy'/>
                     Baixe agora
                 </button>
             </div>
