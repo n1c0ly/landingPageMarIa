@@ -1,13 +1,15 @@
 <h1 align="center">MarIa</h1>
 
 <p align="center">
-🚀 LandingPage feita em <strong>React </strong>, utilizando <strong>Style css</strong> para estilização.
+🚀 LandingPage feita em <strong>React</strong>, utilizando <strong>CSS</strong> para estilização.  
 MarIa oferece uma experiência moderna e prática de uma apresentação de jogo mobile.
 </p>
 
 ---
 
-![Web1](https://github.com/nauan2024/landingPageMarIa/blob/main/MarIa/src/assets/images/corujitaMain.svg)
+<p align="center">
+  <img src="https://github.com/nauan2024/landingPageMarIa/blob/main/MarIa/src/assets/images/corujitaMain.svg" alt="MarIa Preview" />
+</p>
 
 ## 📦 Tecnologias Utilizadas
 
@@ -16,44 +18,37 @@ MarIa oferece uma experiência moderna e prática de uma apresentação de jogo 
 
 ---
 
-
 ## 📁 Estrutura do Projeto
 
-- src
-- components
-- layouts
- - assets
-
+- src  
+  - components  
+  - layouts  
+  - assets  
 
 ---
 
 ## 🚀 Como Rodar o Projeto
 
 ### 1️⃣ Clonar o Repositório
-
-```
+```bash
 git clone https://github.com/BiellNonato/ParkingZ.git
 
-```
 2️⃣ Instalar as Dependências
-```
 cd ParkingZ
-npm installl
+npm install
 
-```
 3️⃣ Rodar o Projeto
-```
 npx expo start
 
-```
-
-
-```
 🧑‍💻 Autor
-Nauan de dados
-Gabriel Pereira Lopes
-Nycole 
-<br/>
 
+Nauan de Dados
+
+Gabriel Pereira Lopes
+
+Nicoly
+
+<br/>
 📝 Licença
+
 Este projeto está sob a licença MIT.
