@@ -7,7 +7,6 @@
     gap: 30px;
     padding: 130px 54px;
     background-color: var(--color-purple);
-
 }
 
 .container-maps h3 {
@@ -24,7 +23,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-background-purplelight);
-    padding: 108px 150px;
+    padding: 108px 150px; /* Grande padding para desktop */
     border-radius: 20px;
 }
 
@@ -45,4 +44,51 @@
 .group-img img {
     width: 200px;
     height: 200px;
+}
+
+
+@media (max-width: 430px) {
+    
+   
+    .container-maps {
+        gap: 20px;
+        padding: 60px 20px; 
+    }
+
+    
+    .container-maps h3 {
+        font-size: 32px;
+        text-align: center; 
+    }
+
+   
+    .content-maps {
+        flex-direction: column; 
+        gap: 20px;
+        padding: 30px 15px; 
+    }
+
+    .content-maps img{
+        width: 240px;
+    }
+    
+    
+    .content-maps p {
+        font-size: 16px; 
+        text-align: center; 
+    }
+
+   
+    .group-img img {
+        width: 120px; 
+        height: 120px;
+    }
+    
+    
+    .group-img {
+        flex-direction: row; 
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
 }
