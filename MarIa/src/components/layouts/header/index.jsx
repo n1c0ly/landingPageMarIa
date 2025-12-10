@@ -38,7 +38,8 @@ export const Header = () => {
                 </ul>
             </nav>
 
-            <img src={avatarMarIa} alt="Avatar personagem MarIa" />
+            <img src={avatarMarIa} alt="Avatar personagem MarIa" loading='lazy'/>
+    
         </header>
     );
 };

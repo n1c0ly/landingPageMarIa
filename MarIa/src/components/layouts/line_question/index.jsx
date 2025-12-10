@@ -1,10 +1,29 @@
-import "./style.css"
-import icon_plus from "../../../assets/images/icon-plus.svg"
-export const Component_line_question = ({question_props}) => {
-    return(
-        <div className="card_question">
-            <p>{question_props}</p>
-            <img src={icon_plus} alt="" />
+import React, { useState } from "react"; 
+import "./style.css"; 
+
+export const Component_line_question = ({ question_props, answer_props }) => {
+    const [estaAberto, setEstaAberto] = useState(false);
+
+    const alternarResposta = () => {
+        setEstaAberto(!estaAberto);
+    };
+    return (
+        <div className="card-pergunta" onClick={alternarResposta}>
+            
+            <div className="cabecalho-pergunta">
+                <h3>{question_props}</h3>
+                <span className="icone">
+                    {estaAberto ? "-" : "+"}
+                </span>
+            </div>
+
+
+            {estaAberto && (
+                <div className="corpo-resposta">
+                    <p>{answer_props || "Resposta indisponível no momento."}</p>
+                </div>
+            )}
+            
         </div>
-    )
-}
+    );
+};

@@ -1,9 +1,10 @@
 @import url(../../../index.css);
 
-.card_question {
+/* Container Principal */
+.card-pergunta {
     display: flex;
+    flex-direction: column; /* CORREÇÃO: Isso garante que a resposta fique EMBAIXO */
     width: 900px;
-    justify-content: space-between;
     color: var(--color-neutral-white);
     background-color: var(--color-black);
     padding: 28px 25px;
@@ -17,5 +18,46 @@
     .card_question {
         width: 350px;
 
+    cursor: pointer; /* Mãozinha ao passar o mouse */
+    transition: background-color 0.3s ease;
+}
+
+.card-pergunta:hover {
+    background-color: #1f1f1f; /* Efeito visual opcional ao passar o mouse */
+}
+
+/* O Cabeçalho (Onde fica o Título e o +) */
+.cabecalho-pergunta {
+    display: flex; 
+    justify-content: space-between; /* Mantém o título na esq. e o + na dir. */
+    align-items: center;
+    width: 100%;
+}
+
+/* O Ícone (+ / -) */
+.icone {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+/* A Resposta (que aparece e some) */
+.corpo-resposta {
+    margin-top: 20px; /* Dá um espaço para não grudar no título */
+    font-size: 16px;
+    color: #cccccc; /* Cor levemente mais clara para diferenciar */
+    line-height: 1.5;
+    animation: surgir 0.4s ease-in-out; /* Animação suave */
+}
+
+/* Animação simples para a resposta deslizar */
+@keyframes surgir {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
