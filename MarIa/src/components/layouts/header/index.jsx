@@ -17,8 +17,7 @@ export const Header = () => {
     return (
         <header>
             <h1>Mar<span>Ia</span></h1>
-
-            {/* BOTÃO TOGGLE: Visível apenas no Mobile */}
+            
             <button
                 className='menu-toggle'
                 onClick={handleToggleMenu}
